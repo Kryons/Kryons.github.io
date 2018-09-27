@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Formulário</title>
+    </head>
+    <body topmargin=50 leftmargin=100>
+        <h2><b>Formulário de Inscrção</b></h2>
+        <fieldset>
+            <legend>Dados básicos</legend>
+                <form>
+                    Nome:<br><input type="text" name="nome"><br>
+                    Data de Nascimento:<br><input type="date" name="data de nascimento"><br>
+                    Sexo:<input type="radio" name="sexo" value="Feminino">Feminino <input type="radio" name="sexo" value="Masculino">Masculino<br>
+                    Escolaridade:<br>
+                    <select name="escolaridade">
+                        <option value="1">Fundamental</option>
+                        <option value="2">Médio</option>
+                        <option value="3">Superior</option>
+                        <option value="4">Pós-Graduação</option>
+                    </select>
+                    <br>Por que você gostaria de participar do evento?<br>
+                    <textarea name="pergunta" rows=8 cols="35">
+
+                    </textarea>
+                </form>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Endereço Residencial</legend>
+                <form>
+                    Endereço:<br><input type="text" name="endereço"><br>
+                    Número:<br><input type="number" name="numero"><br>
+                    Estado:<br><input type="text" name="estado"><br>
+                    CEP:<br><input type="number" name="cep"><br>
+                </form>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Contato</legend>
+                <form>
+                    E-mail:<br><input type="text" name="e-mail"><br>
+                    Telefone:<br><input type="number" name="numero"><br>
+                    Celular:<br><input type="number" name="celular"><br>
+                    Currículo Lates:
+                </form>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Alterar Senha</legend>
+                <form>
+                    Digite sua senha:<br><input type="text" name="senha"><br>
+                    Nova senha:<br><input type="text" name="senha"><br>
+                    Confirme sua nova senha:<br><input type="text" name="senha"><br>
+                </form>
+        </fieldset>
+        <br>
+        <input type="checkbox" name="confirmar"><small>Concordo em receber spams!</small><br>
+        <button>Salvar meus dados</button>
+    </body>
+</html>
